@@ -13,6 +13,8 @@
 		4B447173254AA762007A967C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B447172254AA762007A967C /* Preview Assets.xcassets */; };
 		4B44717E254AA762007A967C /* _0757005_HW3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B44717D254AA762007A967C /* _0757005_HW3Tests.swift */; };
 		4B447189254AA762007A967C /* _0757005_HW3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B447188254AA762007A967C /* _0757005_HW3UITests.swift */; };
+		4B4471AA254AC300007A967C /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4471A9254AC300007A967C /* MusicView.swift */; };
+		4B4471B2254AC455007A967C /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4471B1254AC455007A967C /* struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		4B447184254AA762007A967C /* 00757005-HW3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "00757005-HW3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B447188254AA762007A967C /* _0757005_HW3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0757005_HW3UITests.swift; sourceTree = "<group>"; };
 		4B44718A254AA762007A967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4471A9254AC300007A967C /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		4B4471B1254AC455007A967C /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				4B44716B254AA760007A967C /* _0757005_HW3App.swift */,
 				4B44716D254AA760007A967C /* ContentView.swift */,
+				4B4471A9254AC300007A967C /* MusicView.swift */,
+				4B4471B1254AC455007A967C /* struct.swift */,
 				4B44716F254AA762007A967C /* Assets.xcassets */,
 				4B447174254AA762007A967C /* Info.plist */,
 				4B447171254AA762007A967C /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4471B2254AC455007A967C /* struct.swift in Sources */,
 				4B44716E254AA760007A967C /* ContentView.swift in Sources */,
+				4B4471AA254AC300007A967C /* MusicView.swift in Sources */,
 				4B44716C254AA760007A967C /* _0757005_HW3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
